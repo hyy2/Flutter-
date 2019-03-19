@@ -23,8 +23,8 @@ class LYAlignContent extends StatelessWidget {
         return new Container(
             color: Colors.red,
             child: new Align(
-                alignment: const Alignment(-1, -1),
-                widthFactor: 10.0,
+                alignment: const Alignment(-1,1),
+                widthFactor: 4.0,
                 heightFactor: 3.0,
                 child: new Container(
                     child: new Text('Align'),
